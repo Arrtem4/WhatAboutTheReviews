@@ -1,0 +1,19 @@
+.language-select {
+    & .MuiInputBase-root {
+        width: min-content;
+        margin-right: 0.5rem;
+    }
+    & .MuiSelect-select {
+        font-size: 1.6rem;
+        color: white;
+        transform: translate(13px, 6px);
+        font-weight: 400;
+        padding: 0.5rem 0rem;
+    }
+    & .MuiSvgIcon-root {
+        display: none;
+    }
+    & fieldset {
+        display: none;
+    }
+}

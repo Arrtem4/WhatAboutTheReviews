@@ -1,0 +1,75 @@
+{
+    "menu": {
+        "buttonGuest": "Войти",
+        "buttonProfile": "Профиль",
+        "buttonAdmin": "Админ",
+        "search": "Поиск",
+        "logout": "Выйти"
+    },
+    "category": {
+        "Movies": "Фильмы",
+        "Books": "Книги",
+        "Games": "Игры",
+        "Other": "Разное"
+    },
+    "modal": {
+        "notFoundText": "Страница не найдена",
+        "button": "На главную",
+        "auth": "Выберите аккаунт для входа",
+        "editMode": "Если вы отредактируете обзор, то вы потеряете лайки и комментарии",
+        "editModeButton": "Я понимаю"
+    },
+    "create": {
+        "headerTitle": "Название *",
+        "headerReviewTitle": "Заголовок *",
+        "headerRating": "Оценка *",
+        "headerCategory": "Категория *",
+        "CategoryBooks": "Книги",
+        "CategoryGames": "Игры",
+        "CategoryMovies": "Фильмы",
+        "CategoryOther": "Разное",
+        "headerTags": "Метки",
+        "clearTags": "Очистить",
+        "yourTags": "Ваши метки (не более 10)",
+        "headerReview": "Обзор *",
+        "headerImage": "Обложка",
+        "imageDrop": "Скиньте файлы сюда ...",
+        "imageDrag": " Перетащите сюда изображение или кликните для выбора",
+        "imageInsructions": "Одно вертикальное изображение до 1 Мб",
+        "button": "Опубликовать",
+        "stopTitle": "Максимум 50 символов",
+        "stopHeader": "Максимум 100 символов"
+    },
+    "profile": {
+        "myReviews": "Мои обзоры",
+        "new": "Создать",
+        "delete": "Удалить",
+        "edit": "Редактировать",
+        "editName": "сменить имя",
+        "editNameSave": "сохранить",
+        "sortDate": "По дате",
+        "sortRanked": "По оценке",
+        "sortName": "По названию"
+    },
+    "reviewPreview": {
+        "author": "Автор обзора",
+        "authorRating": "Рейтинг автора",
+        "category": "Категория",
+        "tags": "Метки",
+        "noTags": "нет меток"
+    },
+    "main": {
+        "last": "Последние",
+        "mostRanked": "Наивысший рейтинг",
+        "mostLiked": "Высоко оценённые"
+    },
+    "commentContainer": {
+        "title": "Комментарии",
+        "placeholder": "Введите комментарий...",
+        "delete": "Удалить"
+    },
+    "searchPage": {
+        "title": "Результаты по запросу:",
+        "notFound": "Обзоры по запросу не найдены"
+    }
+}

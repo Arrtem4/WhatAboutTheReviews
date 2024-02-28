@@ -1,0 +1,50 @@
+.searchPage {
+    padding: 1rem 2rem;
+    & .progress {
+        height: 60rem;
+    }
+    &__content {
+        color: var(--text-color);
+        & > div {
+            margin-bottom: 4rem;
+        }
+    }
+    &__title-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 2.5rem;
+        row-gap: 1rem;
+        column-gap: 2rem;
+        align-items: center;
+        padding-bottom: 1.5rem;
+        margin-bottom: 2rem;
+        border-bottom: 1px solid white;
+        width: fit-content;
+        &_title {
+            color: white;
+            padding-left: 1rem;
+        }
+        &_tagName {
+            background-color: var(--background-main-switch);
+            border-radius: 1rem;
+            padding: 0.5rem 1rem;
+            margin-left: 1rem;
+            color: var(--text-color-switch);
+            word-wrap: break-word;
+        }
+    }
+    &__content-not-found {
+        height: 30dvh;
+        & h3 {
+            padding: 3rem 10rem;
+            background-color: var(--comments-main-bgr);
+            font-size: 3rem;
+            border-radius: 1rem;
+            color: var(--text-color);
+            text-align: center;
+            @include respond(s) {
+                padding: 2rem 4rem;
+            }
+        }
+    }
+}

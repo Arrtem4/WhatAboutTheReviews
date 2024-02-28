@@ -1,0 +1,75 @@
+{
+    "menu": {
+        "buttonGuest": "Sign in",
+        "buttonProfile": "Profile",
+        "buttonAdmin": "Admin",
+        "search": "Search",
+        "logout": "Logout"
+    },
+    "category": {
+        "Movies": "movies",
+        "Books": "books",
+        "Games": "games",
+        "Other": "other"
+    },
+    "modal": {
+        "notFoundText": "Page not found",
+        "button": "Main",
+        "auth": "Sign in with account",
+        "editMode": "If you edit the review, you will lose likes and comments",
+        "editModeButton": "I understand"
+    },
+    "create": {
+        "headerTitle": "Title *",
+        "headerReviewTitle": "Header *",
+        "headerRating": "Rating *",
+        "headerCategory": "Category *",
+        "CategoryBooks": "Books",
+        "CategoryGames": "Games",
+        "CategoryMovies": "Movies",
+        "CategoryOther": "Other",
+        "headerTags": "Tags",
+        "clearTags": "Clear",
+        "yourTags": "Enter your tag (max:10)",
+        "headerReview": "Review *",
+        "headerImage": "Image",
+        "imageDrop": "Drop the files here ...",
+        "imageDrag": "Drag the image here or click to select it",
+        "imageInsructions": "One vertical image up to 1 Mb",
+        "button": "Publish",
+        "stopTitle": "Max length 50 characters",
+        "stopHeader": "Max length 100 characters"
+    },
+    "profile": {
+        "myReviews": "My reviews",
+        "new": "New review",
+        "delete": "Delete",
+        "edit": "Edit",
+        "editName": "edit name",
+        "editNameSave": "save",
+        "sortDate": "Sort by date",
+        "sortRanked": "Sort by rank",
+        "sortName": "Sort by name"
+    },
+    "reviewPreview": {
+        "author": "Review by",
+        "authorRating": "Author rating",
+        "category": "Category",
+        "tags": "Tags",
+        "noTags": "no tags"
+    },
+    "main": {
+        "last": "Last",
+        "mostRanked": "Most ranked",
+        "mostLiked": "Most liked"
+    },
+    "commentContainer": {
+        "title": "Comments",
+        "placeholder": "Enter your comment...",
+        "delete": "Delete"
+    },
+    "searchPage": {
+        "title": "Results by search:",
+        "notFound": "No reviews found on request"
+    }
+}

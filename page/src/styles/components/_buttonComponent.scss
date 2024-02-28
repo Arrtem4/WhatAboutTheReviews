@@ -1,0 +1,40 @@
+.button-component {
+    & button {
+        font-size: 1.8rem;
+        padding: 0.7rem 1rem;
+        background-color: var(--button-color);
+        min-width: max-content;
+        text-transform: none;
+        border-radius: 1rem;
+    }
+    & .icon {
+        font-size: 2.5rem;
+        margin-right: 0.7rem;
+    }
+    &_create {
+        & button {
+            width: max-content;
+            min-width: 17rem;
+        }
+        & button.Mui-disabled {
+            background-color: var(--create-button-publish-bgr);
+        }
+    }
+    &.safari-button {
+        & button {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            padding: 1rem 2rem;
+        }
+    }
+}
+.likes_button {
+    & svg {
+        margin-right: 0.8rem;
+        font-size: 2rem;
+    }
+    & button {
+        padding: 0.7rem 1.2rem;
+        font-weight: 500;
+    }
+}

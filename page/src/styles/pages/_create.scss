@@ -1,0 +1,157 @@
+.create {
+    backdrop-filter: blur(10px);
+    position: relative;
+    & .progress {
+        height: 100dvh;
+    }
+    & .header-start {
+        align-self: flex-start;
+        padding-top: 1rem;
+    }
+    & .MuiFormControl-root {
+        & .MuiInputBase-root {
+            background-color: var(--background-input-color);
+        }
+        & .MuiInputBase-input {
+            padding: 0.6rem 1rem;
+            color: var(--text-color);
+        }
+        & .MuiOutlinedInput-notchedOutline {
+            border: none;
+        }
+    }
+    &__body-wrapper {
+        padding: 2rem 2rem 8rem 2rem;
+    }
+    &__row-wrapper {
+        display: flex;
+        align-items: center;
+        margin-bottom: 3rem;
+    }
+    &__header-wrapper {
+        min-width: 9rem;
+        display: flex;
+        justify-content: flex-start;
+        margin-right: 1rem;
+    }
+    &__header-field {
+        width: max-content;
+        font-weight: 700;
+        font-size: 1.7rem;
+        color: white;
+    }
+    &__textfield {
+        flex-grow: 1;
+        & input {
+            font-size: 1.6rem;
+            font-weight: 700;
+            background-color: transparent;
+
+            border-radius: 0.5rem;
+        }
+    }
+    &__rating {
+        & .MuiRating-root {
+            font-size: 3rem;
+            & .MuiRating-iconEmpty {
+                color: var(--rating-color);
+            }
+        }
+    }
+    &__select {
+        & .MuiSelect-select {
+            font-size: 1.6rem;
+            padding: 1rem 1rem 0rem 1rem;
+            color: var(--text-color);
+            background-color: var(--background-input-color);
+            min-width: 9rem;
+        }
+        & .MuiSelect-icon {
+            color: var(--text-color);
+            background-color: var(--background-input-color);
+        }
+    }
+    &__tags {
+        width: 100%;
+        & .MuiAutocomplete-root {
+            & .MuiAutocomplete-inputRoot {
+                color: var(--text-color);
+                font-size: 1.6rem;
+                min-width: 8rem;
+            }
+            & .MuiOutlinedInput-root {
+                padding: 0.5rem;
+                background-color: var(--background-input-color);
+                border-radius: 0.6rem;
+            }
+            & .MuiSvgIcon-root {
+                font-size: 2rem;
+                color: var(--text-color);
+            }
+            & .MuiChip-label {
+                color: var(--text-color);
+                font-size: 1.6rem;
+            }
+            & .MuiAutocomplete-tag {
+                background-color: var(--background-tags);
+                border: none;
+            }
+            & .MuiChip-deleteIcon {
+                color: var(--icon-delete-tags);
+                font-size: 1.7rem;
+                transition: all 0.2s;
+                &:hover {
+                    color: var(--text-color);
+                }
+            }
+        }
+    }
+    &__review {
+        width: 100%;
+        & .MuiInputBase-root {
+            font-size: 1.6rem;
+            color: var(--text-color);
+            padding: 0.5rem 0.5rem;
+        }
+        & .MuiFormControl-root {
+            background-color: var(--background-input-color);
+            border-radius: 0.6rem;
+        }
+    }
+    &__image {
+        background-color: var(--background-input-color);
+        border-radius: 1rem;
+        cursor: pointer;
+        color: var(--icon-delete-tags);
+        font-size: 1.6rem;
+        min-height: 45rem;
+        width: max-content;
+        min-width: 30rem;
+        display: flex;
+        flex-direction: column;
+        padding: 0.5rem 0.5rem 0.2rem 0.5rem;
+        & .uploadFileIcon {
+            margin-bottom: 1rem;
+            font-size: 5rem;
+        }
+        & .highlightOffIcon {
+            font-size: 4rem;
+        }
+
+        & > img {
+            padding-bottom: 0.3rem;
+            object-fit: cover;
+            height: 45rem;
+            width: 30rem;
+            border-radius: 1rem;
+        }
+        & > button {
+            background-color: transparent;
+            color: var(--icon-delete-tags);
+            border: none;
+            cursor: pointer;
+            width: max-content;
+            align-self: center;
+        }
+    }
+}

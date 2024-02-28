@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition: background-color 0.9s, color 0s;
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+    }
+}
+html {
+    @include respond(l) {
+        font-size: 62.5%;
+    }
+    @include respond(m) {
+        font-size: 56.25%;
+    }
+    @include respond(s) {
+        font-size: 50%;
+    }
+}
+body {
+    user-select: none;
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+    }
+    scroll-behavior: smooth;
+    cursor: default;
+    font-weight: 400;
+    min-width: 350px;
+    margin: auto;
+    background-image: url(/src/img/back.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100dvh;
+    @include respond(m) {
+        background-image: url(/src/img/back_mobile.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}

@@ -1,0 +1,28 @@
+.menu {
+    display: flex;
+    align-items: center;
+    padding: 2rem 1.5rem;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    @include respond(s) {
+        justify-content: space-between;
+    }
+    & .search {
+        @include respond(s) {
+            order: 1;
+        }
+    }
+    &_logo {
+        border-radius: 2rem;
+        margin-right: 2rem;
+        transform: translateY(0.1rem);
+        cursor: pointer;
+        & > img {
+            width: 4.5rem;
+        }
+    }
+    &_respond-button-box {
+        display: flex;
+        align-items: center;
+    }
+}

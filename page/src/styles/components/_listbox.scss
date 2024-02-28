@@ -1,0 +1,16 @@
+.MuiPopper-root,
+.MuiPaper-elevation {
+    border-radius: 1rem !important;
+    background-color: transparent !important;
+    margin-top: 1rem !important;
+}
+.MuiAutocomplete-listbox {
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: var(--text-color);
+    background-color: var(--background-input-color);
+    border-radius: 1rem;
+    & .Mui-focused:hover {
+        background-color: var(--background-tags);
+    }
+}

@@ -1,0 +1,54 @@
+html[data-theme="light"] {
+    --text-color: black;
+    --button-color: rgb(50, 84, 237);
+    --rating-color: rgba(175, 171, 207, 0.532);
+    --background-input-color: rgb(255, 255, 255);
+    --background-select-active: rgb(194, 194, 194);
+    --background-tags: rgb(200, 216, 250);
+    --icon-delete-tags: rgb(146, 146, 146);
+    --create-button-publish-bgr: rgb(110, 110, 110);
+    --auth-logo-bgr: rgb(255, 255, 255);
+    --hr-color: rgb(239, 239, 239);
+    --review-info-bgr: rgba(255, 255, 255, 0.71);
+    --rating-bgr-good: rgb(90, 242, 79);
+    --rating-bgr-middle: rgb(254, 245, 3);
+    --rating-bgr-bad: rgb(243, 31, 31);
+    --bgr-contrast-color: rgba(255, 255, 255, 0.8);
+    --bgr-button-delete: rgb(50, 84, 237);
+    --bgr-button-edit: rgb(12, 164, 12);
+    --main-tags-bgr: rgba(93, 93, 93, 0.505);
+    --review-body-bgr: rgba(255, 255, 255, 0.338);
+    --background-main-switch: rgba(255, 255, 255, 0.655);
+    --background-main-switch-active: rgb(250, 250, 250);
+    --text-color-switch: rgb(44, 44, 44);
+    --modal-edit-mode-bgr: rgba(255, 255, 255, 0.632);
+    --comments-main-bgr: rgba(231, 231, 231, 0.647);
+
+}
+
+html[data-theme="dark"] {
+    --text-color: white;
+    --button-color: rgb(34, 39, 190);
+    --rating-color: rgba(134, 134, 134, 0.6);
+    --background-input-color: rgb(69, 69, 69);
+    --background-select-active: rgb(42, 41, 41);
+    --background-tags: rgb(76, 95, 171);
+    --icon-delete-tags: rgb(158, 158, 158);
+    --create-button-publish-bgr: rgb(102, 102, 102);
+    --auth-logo-bgr: rgb(58, 58, 58);
+    --hr-color: rgb(153, 153, 153);
+    --review-info-bgr: rgba(42, 42, 42, 0.766);
+    --rating-bgr-good: rgb(64, 172, 47);
+    --rating-bgr-middle: rgb(235, 235, 19);
+    --rating-bgr-bad: rgb(193, 58, 58);
+    --bgr-contrast-color: rgb(69, 69, 69);
+    --bgr-button-delete: rgb(34, 39, 190);
+    --bgr-button-edit: rgb(17, 121, 17);
+    --main-tags-bgr: rgba(93, 93, 93, 0.505);
+    --review-body-bgr: rgba(0, 0, 0, 0.304);
+    --background-main-switch: rgba(60, 60, 60, 0.595);
+    --text-color-switch: rgb(179, 179, 179);
+    --background-main-switch-active: rgb(60, 60, 60);
+    --modal-edit-mode-bgr: rgba(0, 0, 0, 0.644);
+    --comments-main-bgr: rgba(0, 0, 0, 0.614);
+}

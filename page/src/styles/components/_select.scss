@@ -1,0 +1,14 @@
+.MuiPaper-root {
+    .MuiList-root {
+        background-color: var(--background-input-color);
+        padding-top: 0px;
+        padding-bottom: 0px;
+        & > li {
+            color: var(--text-color);
+            font-size: 1.4rem;
+        }
+        & > .Mui-selected {
+            background-color: var(--background-select-active);
+        }
+    }
+}

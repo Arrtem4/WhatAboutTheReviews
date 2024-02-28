@@ -1,0 +1,46 @@
+.main {
+    padding: 1rem 2rem;
+    & .progress {
+        height: 60dvh;
+    }
+    &__tagCloud {
+        padding: 1rem;
+        max-width: 100%;
+        max-height: 15rem;
+        overflow: scroll;
+        background-color: var(--main-tags-bgr);
+        border-radius: 1rem;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    &_switch {
+        display: flex;
+        margin-bottom: 3rem;
+        @include respond(s) {
+            flex-direction: column;
+            align-items: center;
+        }
+        &_value {
+            font-weight: 400;
+            font-size: 2rem;
+            color: var(--text-color-switch);
+            letter-spacing: 0.3rem;
+            margin: 0 2rem 1rem 0;
+            cursor: pointer;
+            background-color: var(--background-main-switch);
+            border-radius: 1rem;
+            padding: 1rem 2rem;
+            &.active {
+                color: var(--text-color);
+                font-weight: 700;
+                background-color: var(--background-main-switch-active);
+            }
+        }
+    }
+    &_tabs {
+        color: var(--text-color);
+        & > div {
+            margin-bottom: 4rem;
+        }
+    }
+}
