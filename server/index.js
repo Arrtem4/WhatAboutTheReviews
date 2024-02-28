@@ -39,7 +39,7 @@ app.use("/api/post", postRoute);
 app.use("/api/get", getRoute);
 app.use("/api/delete", deleteRoute);
 app.get("/api/previewImage", (req, res) => {
-    res.sendFile(path.join(__dirname, "static", "preview.webp"));
+    res.sendFile(path.join(__dirname, "static", "preview.jpg"));
 });
 app.get("*", (req, res) => {
     res.sendFile(path.join(__dirname, "static", "index.html"));
