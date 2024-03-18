@@ -42,6 +42,11 @@ app.use("/api/delete", deleteRoute);
 app.get("/api/previewImage", (req, res) => {
     res.sendFile(path.join(__dirname, "static", "preview.jpg"));
 });
+app.get("/api/random-book", (req, res) => {
+    const randomIndex = Math.floor(Math.random() * booksData.length);
+    const randomBook = booksData[randomIndex];
+    res.json(randomBook);
+});
 app.get("*", (req, res) => {
     res.sendFile(path.join(__dirname, "static", "index.html"));
 });
@@ -54,12 +59,6 @@ setInterval(async () => {
         console.error(error);
     }
 }, 1000 * 60 * 14);
-app.get("/api/random-book", (req, res) => {
-    const randomIndex = Math.floor(Math.random() * booksData.length);
-    const randomBook = booksData[randomIndex];
-    res.json(randomBook);
-});
-
 app.listen(3001, () => {
     console.log(`App running`);
 });
