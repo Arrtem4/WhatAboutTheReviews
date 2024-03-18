@@ -10,6 +10,7 @@ const postRoute = require("./routes/post");
 const getRoute = require("./routes/get");
 const deleteRoute = require("./routes/delete");
 const path = require("path");
+const booksData = require("./data/books.json");
 const app = express();
 app.use(express.json());
 app.use(
@@ -53,6 +54,12 @@ setInterval(async () => {
         console.error(error);
     }
 }, 1000 * 60 * 14);
+app.get("/api/random-book", (req, res) => {
+    const randomIndex = Math.floor(Math.random() * booksData.length);
+    const randomBook = booksData[randomIndex];
+    res.json(randomBook);
+});
+
 app.listen(3001, () => {
     console.log(`App running`);
 });
