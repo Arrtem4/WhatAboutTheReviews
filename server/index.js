@@ -16,17 +16,17 @@ app.use(express.json());
 app.use(
     cors({
         origin: process.env.CORS_ORIGIN,
-        credentials: true,
+        credentials: process.env.CORS_CREDENTIALS,
     })
 );
 app.set("trust proxy", 1);
 app.use(
     session({
         secret: process.env.COOKIE_SESSION_KEY,
-        resave: true,
-        saveUninitialized: true,
+        resave: process.env.COOKIE_SESSION_RESAVE,
+        saveUninitialized: process.env.COOKIE_SESSION_SAVE_UNINITIALIZED,
         cookie: {
-            sameSite: "lax",
+            sameSite: process.env.COOKIE_SESSION_SAME_SITE,
             secure: true,
             maxAge: 1000 * 60 * 60 * 12,
         },
